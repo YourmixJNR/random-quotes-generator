@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --Background-color: #ffcdd2;
+    --Second-color: #ee534f;
+}
+
+/* Base style */
+
+* {
+    font-family: 'Tektur', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+}
+
+*::selection{
+    background: var(--Second-color);
+    color: var(--Background-color);
+}
