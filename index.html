@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Meta's -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Site Meta's -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    
+
+    <title>Random Quotes Generator</title>
+
+    <!-- Custom styles for this template -->
+    <link href="data:text/css;base64,QGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzMj9mYW1pbHk9SW50ZXI6d2dodEA0MDA7NzAwJmRpc3BsYXk9c3dhcCcpOw0KDQo6cm9vdCB7DQogICAgLS1CYWNrZ3JvdW5kLWNvbG9yOiAjZmZjZGQyOw0KICAgIC0tU2Vjb25kLWNvbG9yOiAjZWU1MzRmOw0KfQ0KDQovKiBCYXNlIHN0eWxlICovDQoNCiogew0KICAgIGZvbnQtZmFtaWx5OiAnSW50ZXInLCBzYW5zLXNlcmlmOw0KICAgIG1hcmdpbjowOyBwYWRkaW5nOjA7DQogICAgYm94LXNpemluZzogYm9yZGVyLWJveDsNCiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7DQogICAgb3V0bGluZTogbm9uZTsgYm9yZGVyOm5vbmU7DQp9DQoNCio6OnNlbGVjdGlvbnsNCiAgICBiYWNrZ3JvdW5kOiB2YXIoLS1TZWNvbmQtY29sb3IpOw0KICAgIGNvbG9yOiB2YXIoLS1CYWNrZ3JvdW5kLWNvbG9yKTsNCn0NCg0KYm9keSB7DQogICAgZm9udC1mYW1pbHk6IDE2cHg7DQogICAgZGlzcGxheTogZmxleDsNCiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOw0KICAgIGp1c3RpZnktY29udGVudDogZmxleC1zdGFydDsNCiAgICBhbGlnbi1pdGVtczogY2VudGVyOw0KICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLUJhY2tncm91bmQtY29sb3IpOw0KfQ0KDQovKiBIZWFkZXIgKi8NCg0KaGVhZGVyIHsNCiAgICBkaXNwbGF5OiBmbGV4Ow0KICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7DQogICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsNCiAgICBnYXA6IDFlbTsNCiAgICBtYXJnaW4tdG9wOiAxZW07DQp9DQoNCmhlYWRlciBoMSB7DQogICAgY29sb3I6ICMzMDMwMzA7DQogICAgZm9udC1zaXplOiAxLjVyZW07DQp9DQoNCi8qIHR5cGVkLmpzICovDQoNCmhlYWRlciAjZWxlbWVudCB7DQogICAgcGFkZGluZzogLjVlbTsNCiAgICBjb2xvcjogI2ZmZjsNCiAgICBiYWNrZ3JvdW5kOiB2YXIoLS1TZWNvbmQtY29sb3IpOw0KICAgIGJvcmRlci1yYWRpdXM6IDVweDsNCn0NCg0KaGVhZGVyIC50eXBlZC1jdXJzb3Igew0KICAgIGRpc3BsYXk6IG5vbmU7DQp9DQoNCm1haW4gew0KICAgIGRpc3BsYXk6IGZsZXg7DQogICAgYWxpZ24taXRlbXM6IGNlbnRlcjsNCiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOw0KICAgIG1hcmdpbi10b3A6IDVlbTsNCn0NCg0KbWFpbiAuZ2VuZXJhdGUtYnRuIHsNCiAgICBwYWRkaW5nOiAuOHJlbTsNCiAgICBmb250LXNpemU6IDFyZW07DQogICAgZm9udC13ZWlnaHQ6IDYwMDsNCiAgICBjb2xvcjogI2ZmZjsNCiAgICBib3JkZXItcmFkaXVzOiA1cHg7DQogICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tU2Vjb25kLWNvbG9yKTsNCiAgICBib3gtc2hhZG93OiA0cHggNHB4ICNmZDdkOTY7DQogICAgdGV4dC1kZWNvcmF0aW9uOiBub25lOw0KICAgIGN1cnNvcjogcG9pbnRlcjsNCn0NCg0KLnF1b3RlLWNhcmQgew0KICAgIGRpc3BsYXk6IGZsZXg7DQogICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsNCiAgICBhbGlnbi1pdGVtczogY2VudGVyOw0KICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOw0KICAgIHdpZHRoOiA1MDBweDsNCiAgICBnYXA6IDFyZW07DQogICAgbWFyZ2luLXRvcDogNWVtOw0KICAgIHBhZGRpbmc6IDJyZW07DQogICAgY2xpcC1wYXRoOiBwb2x5Z29uKDMwcHggMCUsIDEwMCUgMCwgMTAwJSBjYWxjKDEwMCUgLSAzMHB4KSwgY2FsYygxMDAlIC0gMzBweCkgMTAwJSwgMCAxMDAlLCAwJSAzMHB4KTsNCiAgICBib3JkZXItdG9wLXJpZ2h0LXJhZGl1czogMjBweDsNCiAgICBib3JkZXItYm90dG9tLWxlZnQtcmFkaXVzOiAyMHB4Ow0KICAgIGJhY2tncm91bmQ6ICNlZTUzNGY7DQogICAgdHJhbnNpdGlvbjogMXMgZWFzZS1pbi1vdXQ7DQp9DQoNCi5xdW90ZS10ZXh0IHsNCiAgICBmb250LXNpemU6IDEuMnJlbTsNCiAgICBjb2xvcjogI2ZmZjsNCn0NCg0KLnF1b3RlLWF1dGhvciB7DQogICAgZm9udC1zaXplOiAxcmVtOw0KICAgIGZvbnQtc3R5bGU6IGl0YWxpYzsNCiAgICBjb2xvcjogI2ZmZjsNCn0=" type="text/css" rel="stylesheet" media="all">
+
+    <!-- Font-awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script type="module" crossorigin src="/assets/index-2468fd6a.js"></script>
+</head>
+<body>
+
+    <!-- The Header -->
+    <header>
+
+        <h1>Random Quotes</h1>
+
+          <div id="element"></div>
+       
+
+    </header>
+
+    <!-- Main -->
+    <main>
+
+      <button class="generate-btn" id="generate-quote-button">Generate</button>
+
+      <div class="quote-container" id="quote-container"></div>
+
+    </main>
+
+    <!-- Typed JS -->
+    
+
+    <!-- App JS -->
+    
+
+</body>
+</html>
