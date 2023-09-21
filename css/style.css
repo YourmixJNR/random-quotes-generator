@@ -46,11 +46,11 @@ header h1 {
 
 /* typed.js */
 
-header .typedBox {
-    width: 100%;
+header #element {
     padding: .5em;
     color: #fff;
     background: var(--Second-color);
+    border-radius: 5px;
 }
 
 header .typed-cursor {
@@ -65,10 +65,40 @@ main {
 }
 
 main .generate-btn {
-    padding: 1em 2em;
+    padding: .8rem;
     font-size: 1rem;
     font-weight: 600;
-    color: var(--Second-color);
-    background-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+    background-color: var(--Second-color);
+    box-shadow: 4px 4px #fd7d96;
+    text-decoration: none;
+    cursor: pointer;
 }
 
+.quote-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    gap: 1rem;
+    margin-top: 5em;
+    padding: 2rem;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #ee534f;
+    transition: 1s ease-in-out;
+}
+
+.quote-text {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.quote-author {
+    font-size: 1rem;
+    font-style: italic;
+    color: #fff;
+}
