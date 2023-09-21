@@ -8,3 +8,4 @@ const typed = new Typed('#element', {
   smartBackspace: false,
   loop: true
 });
+
