@@ -56,3 +56,19 @@ header .typedBox {
 header .typed-cursor {
     display: none;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+main .generate-btn {
+    padding: 1em 2em;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--Second-color);
+    background-color: #fff;
+}
+

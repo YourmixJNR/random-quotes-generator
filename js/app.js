@@ -10,5 +10,6 @@ generateQuoteButton.addEventListener('click', () => {
   const randomQuote = quotesData[randomIndex];
 
   const quoteContainer = document.getElementById('quote-container');
-  quoteContainer.innerHTML = `<h2>${randomQuote.text}</h2><h3>Author: ${randomQuote.author}</h3>`;
+  quoteContainer.innerHTML = `<h2>${randomQuote.text}</h2>
+  <h3>Author: ${randomQuote.author}</h3>`;
 });
