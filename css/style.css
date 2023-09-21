@@ -53,6 +53,6 @@ header .typedBox {
     background: var(--Second-color);
 }
 
-.typed-cursor {
+header .typed-cursor {
     display: none;
 }
