@@ -11,7 +11,6 @@ generateQuoteButton.addEventListener('click', () => {
 
   const quoteContainer = document.getElementById('quote-container');
   quoteContainer.innerHTML = `<div class="quote-card">
-  <div>Quotes</div>
   <p class="quote-text">" ${randomQuote.text} "</p>
   <p class="quote-author"> - ${randomQuote.author}</p>
   </div>`;
